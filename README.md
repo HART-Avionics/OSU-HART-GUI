@@ -15,24 +15,24 @@
   </a>
 
   <!-- PROJECT TITLE -->
-  <h1 align="center"><#PROJECT TITLE#></h1>
+  <h1 align="center">OSU HART GUI</h1>
 
   <p align="center">
     <!-- SHORT PROJECT DESCRIPTION -->
-    <#SHORT PROJECT DESCRIPTION#>
+    GUI for displaying telemetry data from the rocket's avionics
     <br />
     <!-- LINK TO DOCUMENTATION -->
-    <a href="https://hart-avionics.github.io/<#PROJECT#>/"><strong>Explore the docs »</strong></a>
+    <a href="https://hart-avionics.github.io/OSU-HART-GUI/"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <!-- LINK TO DEMO
     <a href="INSERT LINK TO DEMO HERE">View Demo</a>
     · -->
     <!-- LINK TO ISSUES -->
-    <a href="https://github.com/HART-Avionics/<#PROJECT#>/issues">Report Bug</a>
+    <a href="https://github.com/HART-Avionics/osu-hart-gui/issues">Report Bug</a>
     ·
     <!-- LINK TO ISSUES -->
-    <a href="https://github.com/HART-Avionics/<#PROJECT#>/issues">Request Feature</a>
+    <a href="https://github.com/HART-Avionics/osu-hart-gui/issues">Request Feature</a>
   </p>
 </p>
 
@@ -60,7 +60,7 @@ Table of Contents
 About the Project
 ---------------------
 <!-- Description of the project and it's intended purpose or origin story. -->
-<#LONG PROJECT DESCRIPTION#>
+The goal of this project is to take in processed telemetry from the Data Processing block and displt on a Graphical User Interface so that the HART team can visualize the state of the rocket during flight (simulated, recorded, or live flight).
 
 This project is currently under construction.
 
@@ -106,7 +106,7 @@ $ sudo apt-get install texlive-latex-recommended texlive-fonts-recommended texli
 ### Installing
 1. Clone the repo
     ```bash
-    $ git clone https://github.com/HART-Avionics/<#PROJECT#>.git
+    $ git clone https://github.com/HART-Avionics/osu-hart-gui.git
     ```
 
 <a name="usage"></a>
@@ -155,6 +155,7 @@ Distributed under the GNU Public License. See `LICENSE` for more information.
 Contacts
 -----------
 <!-- Your Name - @your_twitter - example@example.com -->
+**Maintainer**: Samuel D. Villegas - villegsa@oregonstate.edu
 
 <a name="donate"></a>
 Support the Project
@@ -178,17 +179,17 @@ Acknowledgements
 -->
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[cicd-shield]: https://github.com/HART-Avionics/<#PROJECT#>/workflows/CI/CD/badge.svg?branch=develop
+[cicd-shield]: https://github.com/HART-Avionics/osu-hart-gui/workflows/CI/CD/badge.svg?branch=develop
 [cicd-url]: https://github.com/HART-Avionics/docs/actions "CI/CD"
-[contributors-shield]: https://img.shields.io/github/contributors/HART-Avionics/<#PROJECT#>
-[contributors-url]: https://github.com/HART-Avionics/<#PROJECT#>/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/HART-Avionics/<#PROJECT#>
-[forks-url]: https://github.com/HART-Avionics/<#PROJECT#>/network/members
-[stars-shield]: https://img.shields.io/github/stars/HART-Avionics/<#PROJECT#>
-[stars-url]: https://github.com/HART-Avionics/<#PROJECT#>/stargazers
-[issues-shield]: https://img.shields.io/github/issues/HART-Avionics/<#PROJECT#>
-[issues-url]: https://github.com/HART-Avionics/<#PROJECT#>/issues
-[license-shield]: https://img.shields.io/github/license/HART-Avionics/<#PROJECT#>
-[license-url]: https://github.com/HART-Avionics/<#PROJECT#>/blob/main/LICENSE
+[contributors-shield]: https://img.shields.io/github/contributors/HART-Avionics/osu-hart-gui
+[contributors-url]: https://github.com/HART-Avionics/osu-hart-gui/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/HART-Avionics/osu-hart-gui
+[forks-url]: https://github.com/HART-Avionics/osu-hart-gui/network/members
+[stars-shield]: https://img.shields.io/github/stars/HART-Avionics/osu-hart-gui
+[stars-url]: https://github.com/HART-Avionics/osu-hart-gui/stargazers
+[issues-shield]: https://img.shields.io/github/issues/HART-Avionics/osu-hart-gui
+[issues-url]: https://github.com/HART-Avionics/osu-hart-gui/issues
+[license-shield]: https://img.shields.io/github/license/HART-Avionics/osu-hart-gui
+[license-url]: https://github.com/HART-Avionics/osu-hart-gui/blob/main/LICENSE
 [sphinx-docs]: https://www.sphinx-doc.org/en/master/index.html
 [donate-url]: https://osuaiaa.com/donate
